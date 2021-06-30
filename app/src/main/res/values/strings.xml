@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">SberTicTacToe</string>
+    <string name="begin_score_pl1">Player 1: 0</string>
+    <string name="begin_score_two">Player 2: 0</string>
+    <string name="score_board">SCORE BOARD</string>
+    <string name="reset_game">Reset Game</string>
+</resources>
