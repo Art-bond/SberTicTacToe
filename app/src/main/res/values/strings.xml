@@ -4,4 +4,14 @@
     <string name="begin_score_two">Player 2: 0</string>
     <string name="score_board">SCORE BOARD</string>
     <string name="reset_game">Reset Game</string>
+
+    <string name="player_one_score" formatted="false">Player 1: %d Points </string>
+    <string name="player_two_score" formatted="false">Player 2: %d Points </string>
+    <string name="background_image">background_image</string>
+    <string name="field_for_nought_or_cross">field for nought or cross</string>
+    <string name="counter_computer_progress">counter computer progress</string>
+    <string name="counter_player_progress">counter player progress</string>
+    <string name="winner_screen">winner screen</string>
+    <string name="player_win_speech">- Разве может робот написать симфонию? А взять чистый холст и превратить его в шедевр?</string>
+    <string name="computer_win_speech">Ты, человек, не способен даже обыграть искусственный интелект в крестики-нолики</string>
 </resources>

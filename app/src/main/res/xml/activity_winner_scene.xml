@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MotionScene xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:motion="http://schemas.android.com/apk/res-auto">
+
+    <Transition
+        motion:autoTransition="animateToEnd"
+        motion:constraintSetEnd="@+id/end"
+        motion:constraintSetStart="@id/start"
+        motion:duration="5000"
+        motion:motionInterpolator="linear">
+        <KeyFrameSet>
+            <KeyAttribute
+                android:alpha="0.0"
+                motion:framePosition="50"
+                motion:motionTarget="@id/tv_winner_speech" />
+        </KeyFrameSet>
+    </Transition>
+
+    <ConstraintSet android:id="@+id/start">
+        <Constraint
+            android:id="@+id/tv_winner_speech"
+            motion:layout_constraintEnd_toEndOf="parent"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            motion:layout_constraintStart_toStartOf="parent"
+            motion:layout_constraintBottom_toBottomOf="@+id/iv_winner"
+            android:layout_marginBottom="64dp"
+            android:layout_marginRight="16dp"
+            android:alpha="0" />
+        <Constraint
+            android:id="@+id/iv_winner"
+            motion:layout_constraintEnd_toEndOf="parent"
+            android:layout_width="wrap_content"
+            android:layout_height="500dp"
+            motion:layout_constraintTop_toTopOf="@+id/iv_bg_winner"
+            motion:layout_constraintStart_toStartOf="parent"
+            android:translationX="500dp" />
+    </ConstraintSet>
+
+    <ConstraintSet android:id="@+id/end">
+        <Constraint
+            android:id="@+id/tv_winner_speech"
+            motion:layout_constraintEnd_toEndOf="parent"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            motion:layout_constraintStart_toStartOf="parent"
+            motion:layout_constraintBottom_toBottomOf="@+id/iv_winner"
+            android:layout_marginBottom="64dp"
+            android:layout_marginRight="16dp"
+            android:alpha="1" />
+        <Constraint
+            android:id="@+id/iv_winner"
+            motion:layout_constraintEnd_toEndOf="parent"
+            android:layout_width="wrap_content"
+            android:layout_height="500dp"
+            motion:layout_constraintTop_toTopOf="@+id/iv_bg_winner"
+            motion:layout_constraintStart_toStartOf="parent" />
+    </ConstraintSet>
+
+
+</MotionScene>
