@@ -1,12 +1,8 @@
 <resources>
     <string name="app_name">SberTicTacToe</string>
-    <string name="begin_score_pl1">Player 1: 0</string>
-    <string name="begin_score_two">Player 2: 0</string>
     <string name="score_board">SCORE BOARD</string>
     <string name="reset_game">Reset Game</string>
 
-    <string name="player_one_score" formatted="false">Player 1: %d Points </string>
-    <string name="player_two_score" formatted="false">Player 2: %d Points </string>
     <string name="background_image">background_image</string>
     <string name="field_for_nought_or_cross">field for nought or cross</string>
     <string name="counter_computer_progress">counter computer progress</string>

@@ -2,7 +2,6 @@
 <resources>
     <dimen name="margin_one">16dp</dimen>
     <dimen name="btn_size">100dp</dimen>
-    <dimen name="btn_corner_radius">6dp</dimen>
     <dimen name="margin_btn_play">3dp</dimen>
     <dimen name="margin_double">32dp</dimen>
 </resources>
