@@ -91,6 +91,7 @@
             android:gravity="center">
 
             <ImageButton
+                android:id="@+id/btn0"
                 android:layout_width="@dimen/btn_size"
                 android:layout_height="@dimen/btn_size"
                 android:layout_margin="@dimen/margin_btn_play"
@@ -99,6 +100,7 @@
                 android:tag="" />
 
             <ImageButton
+                android:id="@+id/btn1"
                 android:layout_width="@dimen/btn_size"
                 android:layout_height="@dimen/btn_size"
                 android:layout_margin="@dimen/margin_btn_play"
@@ -107,6 +109,41 @@
                 android:tag="" />
 
             <ImageButton
+                android:id="@+id/btn2"
+                android:layout_width="@dimen/btn_size"
+                android:layout_height="@dimen/btn_size"
+                android:layout_margin="@dimen/margin_btn_play"
+                android:background="@drawable/btn_fields"
+                android:contentDescription="@string/field_for_nought_or_cross"
+                android:tag="" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <ImageButton
+                android:id="@+id/btn3"
+                android:layout_width="@dimen/btn_size"
+                android:layout_height="@dimen/btn_size"
+                android:layout_margin="@dimen/margin_btn_play"
+                android:background="@drawable/btn_fields"
+                android:contentDescription="@string/field_for_nought_or_cross"
+                android:tag="" />
+
+            <ImageButton
+                android:id="@+id/btn4"
+                android:layout_width="@dimen/btn_size"
+                android:layout_height="@dimen/btn_size"
+                android:layout_margin="@dimen/margin_btn_play"
+                android:background="@drawable/btn_fields"
+                android:contentDescription="@string/field_for_nought_or_cross"
+
+                android:tag="" />
+
+            <ImageButton
+                android:id="@+id/btn5"
                 android:layout_width="@dimen/btn_size"
                 android:layout_height="@dimen/btn_size"
                 android:layout_margin="@dimen/margin_btn_play"
@@ -122,6 +159,7 @@
             android:gravity="center">
 
             <ImageButton
+                android:id="@+id/btn6"
                 android:layout_width="@dimen/btn_size"
                 android:layout_height="@dimen/btn_size"
                 android:layout_margin="@dimen/margin_btn_play"
@@ -130,48 +168,16 @@
                 android:tag="" />
 
             <ImageButton
+                android:id="@+id/btn7"
                 android:layout_width="@dimen/btn_size"
                 android:layout_height="@dimen/btn_size"
                 android:layout_margin="@dimen/margin_btn_play"
                 android:background="@drawable/btn_fields"
                 android:contentDescription="@string/field_for_nought_or_cross"
-
                 android:tag="" />
 
             <ImageButton
-                android:layout_width="@dimen/btn_size"
-                android:layout_height="@dimen/btn_size"
-                android:layout_margin="@dimen/margin_btn_play"
-                android:background="@drawable/btn_fields"
-
-                android:contentDescription="@string/field_for_nought_or_cross"
-                android:tag="" />
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center">
-
-            <ImageButton
-                android:layout_width="@dimen/btn_size"
-                android:layout_height="@dimen/btn_size"
-                android:layout_margin="@dimen/margin_btn_play"
-                android:background="@drawable/btn_fields"
-
-                android:contentDescription="@string/field_for_nought_or_cross"
-                android:tag="" />
-
-            <ImageButton
-                android:layout_width="@dimen/btn_size"
-                android:layout_height="@dimen/btn_size"
-                android:layout_margin="@dimen/margin_btn_play"
-                android:background="@drawable/btn_fields"
-
-                android:contentDescription="@string/field_for_nought_or_cross"
-                android:tag="" />
-
-            <ImageButton
+                android:id="@+id/btn8"
                 android:layout_width="@dimen/btn_size"
                 android:layout_height="@dimen/btn_size"
                 android:layout_margin="@dimen/margin_btn_play"
